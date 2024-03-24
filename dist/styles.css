@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header {
+    margin: 64px;
+    margin-top: 16px;
+}
+
+.element-picker {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    width: 80%;
+}
+
+#Hydrogen {
+    grid-area: 1/1/1/2;
+}
+
+#space1 {
+    grid-area: 1/2/1/18;
+}
+
+#Helium {
+    grid-area: 1/18/1/19;
+}
+
+#Lithium {
+    grid-area: 2/1/3/1;
+}
+
+#Beryllium {
+    grid-area: 2/2/3/3;
+}
+#space2 {
+    grid-area: 2/3/3/13;
+}
+#space3 {
+    grid-area: 3/3/4/13;
+}
+
+#space4 {
+    grid-area: 8/1/9/4;
+}
+#Cerium {
+    grid-area: 8/4/9/5;
+}
+#Praseodymium {
+    grid-area: 8/5/9/6;
+}
+#Neodymium {
+    grid-area: 8/6/9/7;
+}
+#Promethium {
+    grid-area: 8/7/9/8;
+}
+#Samarium {
+    grid-area: 8/8/9/9;
+}
+#Europium {
+    grid-area: 8/9/9/10;
+}
+#Gadolinium {
+    grid-area: 8/10/9/11;
+}
+#Terbium {
+    grid-area: 8/11/9/12;
+}
+#Dysprosium {
+    grid-area: 8/12/9/13;
+}
+#Holmium {
+    grid-area: 8/13/9/14;
+} 
+#Erbium {
+    grid-area: 8/14/8/15;
+}
+#Thulium {
+    grid-area: 8/15/9/16;
+}
+#Ytterbium {
+    grid-area: 8/16/9/17;
+}
+#Lutetium {
+    grid-area: 8/17/9/18;
+}
+#space5 {
+    grid-area: 8/18/9/19;
+}
+
+
+#space6 {
+    grid-area: 9/1/10/4;
+}
+#Thorium {
+    grid-area: 9/4/10/5;
+}
+#Protactinium {
+    grid-area: 9/5/10/6;
+}
+#Uranium {
+    grid-area: 9/6/10/7;
+}
+#Neptunium {
+    grid-area: 9/7/10/8;
+}
+#Plutonium {
+    grid-area: 9/8/10/9;
+}
+#Americium {
+    grid-area: 9/9/10/10;
+}
+#Curium {
+    grid-area: 9/10/10/11;
+}
+#Berkelium {
+    grid-area: 9/11/10/12;
+}
+#Californium {
+    grid-area: 9/12/10/13;
+}
+#Einsteinium {
+    grid-area: 9/13/10/14;
+} 
+#Fermium {
+    grid-area: 9/14/10/15;
+}
+#Mendelevium {
+    grid-area: 9/15/10/16;
+}
+#Nobelium {
+    grid-area: 9/16/10/17;
+}
+#Lawrencium {
+    grid-area: 9/17/10/18;
+}
+#space7 {
+    grid-area: 9/18/10/19;
+}
+
+
+
+
+.element-container {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4px;
+    width: 64px;
+    margin: 2px;
+}
+.element-container:hover {
+    background-color: lightgrey;
+}
+.element-container p {
+    padding-top: 2px;
+}
+#atomic-number {
+    font-weight: bold;
+}
+#name {
+    font-size: 10px;
+}
+
+
+.massviewer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    margin: 64px;
+    margin-bottom: 32px;
+}
+
+.adder {
+    border: 1px solid black;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.element-add {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    gap: 2px;
+}
+.symbol-add {
+    font-size: 42px;
+}
+.amount-add {
+    font-size: 16px;
+}
+.total-mass {
+    font-size: 32px;
+}
+
+.clear {
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: white;
+    width: 128px;
+    height: 32px;
+    margin-bottom: 32px;
+}
+
+.clear:hover {
+    background-color: lightgray;
+}
